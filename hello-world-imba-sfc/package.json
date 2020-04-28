@@ -1,0 +1,32 @@
+{
+  "name": "hello-world-imba",
+  "description": "Hello World for Imba SFC",
+  "keywords": [
+    "imba"
+  ],
+  "author": "Alexander Alemayhu",
+  "bugs": "https://github.com/somebee/hello-world-imba-sfc/issues",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "scripts": {
+    "start": "imba-rollup --watch --serve --hmr",
+    "dev": "imba-rollup --watch --serve --hmr",
+    "build": "imba-rollup"
+  },
+  "files": [],
+  "directories": {},
+  "homepage": "http://imba.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/somebee/hello-world-imba-sfc.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "imba": "^2.0.0-alpha.34",
+    "imba-rollup": "^2.0.0-alpha.31"
+  },
+  "devDependencies": {}
+}
